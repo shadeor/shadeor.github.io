@@ -1,0 +1,227 @@
+<html>
+
+    <head>
+        <link href="style_homepage.css" rel="stylesheet">
+        <script src="home_page_function.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Almendra+Display|Almendra+SC|Battambang|Content|Dr+Sugiyama|Meddon|Miss+Fajardose|Nothing+You+Could+Do|Ruthie|Sedgwick+Ave+Display|UnifrakturMaguntia" rel="stylesheet">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>   
+
+        <!--
+
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Battambang', cursive;
+font-family: 'Ruthie', cursive;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Almendra SC', serif;
+font-family: 'Miss Fajardose', cursive;
+font-family: 'Almendra Display', cursive;
+-->    
+        <title>Gothic Poe</title>   
+
+        <script>
+            $(document).ready(function(){
+                $("#cards a").click(function(evt){
+                    $("#image").attr("src", $(this).attr("href"));
+                    evt.preventDefault();
+                });
+
+
+
+                $("#cards2 a").click(function(evt){
+                    $("#image2").attr("src", $(this).attr("href"));
+                    $('#dsc').html($(this).text());
+                    evt.preventDefault();
+
+                });
+            });  
+            
+            
+            
+            
+
+        </script>    
+    </head>    
+
+    <body>
+
+        <div id="myDIV">    
+            <header> 
+                <h1 id="gothic">Gothic Poʊ</h1>
+            </header>   
+
+            <div id="div2" class="container">
+                <h1 class="video">Video coming soon!<br><br><br>Demo Now Avalible!</h1>    
+            </div>  
+        </div>          
+
+        <ul id="menu">
+            <li onclick="howToPlay()">How to Play</li>
+            <li onclick="dropDownRoles()">Role Cards</li>
+            <li onclick="dropDownEvents()">Event Cards</li>
+            <li onclick="dropDownLog()">Developer Log</li>    
+            <li><a href= "game.html">Play Game</a></li>    
+        </ul>
+
+        
+        <section id="howToPlay">   
+            <div style="text-align:center">
+            <h5>Enter the true stories of Poe, try to survive the horrors to come.</h5>
+            <h5>Choose your who you play</h5>
+            <h5>Form alliences</h5> 
+            <h5>Kill your foes</h5>
+            <h5>But don't get caught by death itself.</h5>
+            <h5>Can you survive the deadly game written by Poe?</h5>
+            </div>    
+        </section>
+        
+        
+
+        <section id="role_cards" name="div">
+
+            <h3>Role Cards</h3>
+
+
+            <div id="card_list" >
+                <table>
+                <td> 
+                <tr>    
+                <p>
+                    <img src="images/temp_role_cards/blackcat.jpg" alt="" id="image">
+                </p>
+                    </tr>
+                
+                    <tr>
+                        <ul id="cards">
+                    <li><a href="images/temp_role_cards/blackcat.jpg" title="blackcat" id="first_link">   
+                        <img src="images/temp_role_cards/blackcat.jpg" alt="blackcat"></a></li>
+                    <li><a href="images/temp_role_cards/cat.jpg" title="Finding Dory">
+                        <img src="images/temp_role_cards/cat.jpg" alt="Finding Dory"></a></li>
+                    <li><a href="images/temp_role_cards/changling.jpg" title="Kung Fu Panda 3">
+                        <img src="images/temp_role_cards/changling.jpg" alt="Kung Fu Panda 3"></a></li>
+                    <li><a href="images/temp_role_cards/child.jpg" title="Secret Life of Pets">
+                        <img src="images/temp_role_cards/child.jpg" alt="Secret Life of Pets"></a></li>
+                    <li><a href="images/temp_role_cards/Devil.jpg" title="The Choice">
+                        <img src="images/temp_role_cards/Devil.jpg" alt="The Choice"></a></li>
+                    <li><a href="images/temp_role_cards/fortune.jpg" title="The Finest Hours">
+                        <img src="images/temp_role_cards/fortune.jpg" alt="The Finest Hours"></a></li>
+                    <li><a href="images/temp_role_cards/heart.jpg" title="The Force Awakens">
+                        <img src="images/temp_role_cards/heart.jpg" alt="The Force Awakens"></a></li>
+                    <li><a href="images/temp_role_cards/judge.jpg" title="The Revenant">
+                        <img src="images/temp_role_cards/judge.jpg" alt="The Revenant"></a></li>
+
+                    <li><a href="images/temp_role_cards/mask.jpg" title="Titanic">
+                        <img src="images/temp_role_cards/mask.jpg" alt="Titanic"></a></li>
+                    <li><a href="images/temp_role_cards/medic.jpg" title="Deadpool">
+                        <img src="images/temp_role_cards/medic.jpg" alt="Deadpool"></a></li>
+                    <li><a href="images/temp_role_cards/occult.jpg" title="Jurassic Park">
+                        <img src="images/temp_role_cards/occult.jpg" alt="Jurassic Park"></a></li>
+                    <li><a href="images/temp_role_cards/painterr.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/painterr.jpg" alt="Megamind"></a></li>
+                    <li><a href="images/temp_role_cards/piper.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/piper.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/plagued.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/plagued.jpg" alt="Megamind"></a></li> 
+                    <li><a href="images/temp_role_cards/poe.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/poe.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/raven.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/raven.jpg" alt="Megamind"></a></li>  
+                    <li><a href="images/temp_role_cards/reaper.jpg" title="Megamind">
+                        <img src="images/temp_role_cards/reaper.jpg" alt="Megamind"></a></li>         
+
+                </ul>
+                    </tr>
+            </td>
+                </table>    
+            </div>
+        </section>    
+
+        <section id="event_cards" name="div">
+            <h3>Event Cards</h3>
+
+
+            <div id="card_list">
+            
+                    <table> 
+                
+                    <tr>
+                    <td  id="tr1">
+                     <li id="dsc" class="morella">Morella Dies.<br>
+                    "I am here, I am dying..." were those the last words she could spit out to her husband before she died? <br>This card will only take affect if Morella and the child cards are on the board.</li>
+                    </td>
+                    <td>
+                    <img src="images/temp_event_cards/baptism.jpg" alt="" id="image2">
+                        </td>
+                    </tr>
+                
+                </table>
+                    
+            
+
+                <ul id="cards2">
+                    <li><a href="images/temp_event_cards/baptism.jpg" title="baptism" id="first_link">
+                        <p class="hidden">Morella Dies.<br>
+                    "I am here, I am dying..." were those the last words she could spit out to her husband before she died? <br>This card will only take affect if Morella and the child cards are on the board.</p> 
+                        <img src="images/temp_event_cards/baptism.jpg" alt="baptism"></a>
+                        
+                    </li>
+                    <li><a href="images/temp_event_cards/bridge.jpg" title="bridge">
+                        <p class="hidden">Toby Dammit Dies. <br>Would Toby still be alive, if his friend had not presured him? Maybe not, since his pride was too great.<br> This card will only take effect if Toby and the Devil cards are still on the board.</p> 
+                        <img src="images/temp_event_cards/bridge.jpg" alt="bridge"></a></li>
+                    <li><a href="images/temp_event_cards/carnival.jpg" title="carnival">
+                        <p class="hidden">Fortunato Dies. <br> "May you rest in peace my dear friend". Montresor must have felt a great hatred towards someone he once refeard to as a friend. Why else would he have dug him a grave.<br> This card will only take effetc if Montressor and Fortunato cards are still opn the board.</p>
+                        <img src="images/temp_event_cards/carnival.jpg" alt="carnival"></a></li>
+                    <li><a href="images/temp_event_cards/cat.jpg" title="cat">
+                        <p class="hidden">House of Trials is Triggerd. <br> Someone commited a murder and that someone must die. The Cat's cry has called for a trial. The player with the most votes dies.</p>
+                        <img src="images/temp_event_cards/cat.jpg" alt="cat"></a></li>
+                    <li><a href="images/temp_event_cards/chimp.jpg" title="chimp">
+                        <p class="hidden">House of Trials is Triggered.<br> Someone commited a murder and that someone must die. Augustine Dupin has investigated the scene. The player with the most votes dies.<br> This card will only take effect if Aguste Dupin's card is still on the board.</p>
+                        <img src="images/temp_event_cards/chimp.jpg" alt="chimp"></a></li>
+                    <li><a href="images/temp_event_cards/crossroads.jpg" title="crossroads">
+                        <p class="hidden">Oh great Warrior Tamerlane a choice must be made. Love or Conquest.<br> LOVE: If Ada is about to die, Tamerlane will die instead. <br> CONQUEST: If Tamerlane is about to die, Ada will die instead. <br> This card will only take effect if Tamerlane's and Ada's cards are still on the board.</p>
+                        <img src="images/temp_event_cards/crossroads.jpg" alt="crossroads"></a></li>
+                    <li><a href="images/temp_event_cards/heart.jpg" title="heart">
+                        <p class="hidden">House of Trials is Triggerd. <br> Someone commited a murder and that someone must die. The planks have been lifted, reveling a beating heart. The player with the most votes dies.</p>
+                        <img src="images/temp_event_cards/heart.jpg" alt="heart"></a></li>
+                    <li><a href="images/temp_event_cards/house_usher.jpg" title="usher">
+                        <p class="hidden">Madeline & Roerick both die.<br> The sound of thunder is overwhelming. Someone thought dead has comeback for a soul. Is this Madeline's way of love or is it revenge?<br> This card will only take effect if Madeline's and Rodrick's cards are still on the board.</p>
+                        <img src="images/temp_event_cards/house_usher.jpg" alt="usher"></a></li>
+
+                    <li><a href="images/temp_event_cards/painting.jpg" title="painting">
+                        <p class="hidden">A Lover Dies. <br>Is this a painting of life or is it a painting of death. <br> This card will only take effect if one of the lovers holds the painter's role.</p>
+                        <img src="images/temp_event_cards/painting.jpg" alt="painting"></a></li>
+                    <li><a href="images/temp_event_cards/red_death.jpg" title="red">
+                        <p class="hidden">Prospero and all those cursed with death die. <br>Is this a dance of death or a deadly plague? It might be too late to tell.<br> This card will only take effect if The Mask card is still on the board.</p>
+                        <img src="images/temp_event_cards/red_death.jpg" alt="red"></a></li>
+                    <li><a href="images/temp_event_cards/vigil.jpg" title="vigil">
+                        <p class="hidden">Ligeia Returns. <br> Was it a husband's devoted love? Or some other worldly power that brought the fair maiden back from the dead? <br> This card will only take effect if Ligeia's and Rowena's cards have both died.</p>
+                        <img src="images/temp_event_cards/vigil.jpg" alt="vigil"></a></li>                    
+                </ul>
+            </div>
+
+
+
+        </section>
+
+        <section id="developer_log" name="div">
+
+             <h3>Developer Log</h3>
+            
+            <h5 style="text-align:center">Hello, This Game is currently in delvelpment.</h5>
+            
+            <p style="font-size: 14px">12/21/2018:<br>Website has been uploaded.</p>
+            
+        </section>    
+
+    </body> 
+
+
+</html>
+
+

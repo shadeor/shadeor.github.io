@@ -1,0 +1,208 @@
+body {
+    font: 12px/1.2 Arial;
+    background: #666;
+    background: linear-gradient(#000000
+        ,#1a0000,#330000);
+    color: #fff;
+    text-align:center;
+    height:100;    
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20;
+}
+
+.animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: titleLocation;
+    animation-fill-mode: forwards;
+    animation-duration: 4s; 
+    font-size: 10;
+    transition: font-size 5s;
+}
+
+
+.card_bank_animation {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: card_location;
+    animation-fill-mode: forwards;
+    animation-duration: 4s; 
+}
+
+.fadein{
+    opacity: 1;
+    transition: opacity 5s;
+}
+
+h1{
+    font-family: 'Meddon', cursive;
+}
+
+
+.start_button, .test{
+    font-size: 35;
+    font-family: 'Almendra Display', cursive;
+    color: crimson;
+}
+
+.find,.ai{
+    padding: 40px;
+    font-size: 35;
+    font-family: 'Almendra Display', cursive;
+    color: crimson;
+    opacity: 1;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 5s; 
+}
+
+.role_card{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#div2{
+    height: 50px;
+    width: 1300px;
+    transform: translateX(-50%) translateY(-400%);
+}
+
+.character_card{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.character_card:hover{
+    border-style: solid;
+    border-color: red;
+}
+
+.quote{
+    font-size: 60px;
+}
+
+button {     
+    background-color: Transparent;
+    border: none; 
+    cursor: pointer;
+}
+
+.btns{
+    color: red;
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;     
+}
+
+
+
+.btns2{
+    height: 30px;
+    width: 30px; 
+    border: 2px solid #ff0000;
+}
+
+#div2_inner{
+
+}
+
+#div3{
+    margin-left: 350px;
+    margin-top: 250px;
+    width: 360;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(50deg);
+}
+
+#div4{
+    margin-left: 752px;
+    margin-top: -345px;
+    width: 360;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(50deg);
+}
+
+#div5{
+    margin-left: 686px;
+    margin-top: -218px;
+    width: 90;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(50deg);
+}
+
+#div6{
+    position: absolute;
+    z-index:10;
+    margin-left: 600;
+    margin-top: -300;
+}
+
+#div7{
+    background-color: black;
+    position: absolute;
+    z-index:20;
+}
+
+.events{
+    width:300px; 
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 3s; 
+}
+
+.eventsEnd{
+    width:300px; 
+    animation-name: fadeOut;
+    animation-fill-mode: forwards;
+    animation-duration: 3s; 
+}
+
+/*morella{
+background: url(images/flower.jpg);
+border: medium none !important;
+width: 150px;
+height: 45px;
+color: transparent;
+}*/
+
+/*Animations*/
+@keyframes titleLocation {
+    0%{left:50%; top:50%;}
+    100% {left:50%; top:10%;}
+}
+
+@keyframes fadein {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes fadeOut{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes card_location{
+    0%{left:50%; top:50%;}
+    100% {left:10%; top:50%;}
+}
+
+@keyframes event_animation{
+    0%{opacity: 0}
+    50%{opacity: 1}
+    100%{opacity: 0}
+}

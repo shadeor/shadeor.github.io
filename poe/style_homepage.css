@@ -1,0 +1,132 @@
+body {
+    font: 12px/1.2 Arial;
+    background: #000;
+    color: #fff;
+    text-align:center;
+    height:100;    
+}
+
+h1, h3{
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Meddon', cursive;
+}
+
+h5{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    font-family: 'Almendra SC', serif;
+}
+
+.container{
+    /* background: radial-gradient(#1a0000, #000000, #ce3131);*/
+}
+#div2{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    /*border: 10px solid white;*/
+    height: 400px;
+    display: block;
+}
+
+#dsc{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#tr1{
+    width: 600;
+}
+table{
+    margin-left: 200;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Dr Sugiyama', cursive;
+}
+
+.hidden{
+    display: none;
+}
+
+.video{
+    color: black;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Meddon', cursive;
+    font-size: 20px;
+}
+
+.mystyle {
+    width: 0%;
+}
+
+#role_cards{
+    display: none;
+}
+
+#event_cards{
+    display: none;
+}
+
+#cards{
+    width: 500px;
+    float: left;
+    padding: 2%;
+    transform: translateX(30%) translateY(-100%);
+    /* list-style: none;
+    padding: 0px;
+    width:250px;
+    transform: translateX(150%) translateY(-0%);*/
+}
+
+#howToPlay{
+    display: none;
+}
+
+#developer_log{
+    display: none;
+}
+
+html{
+    height: 80px;
+}
+
+#image, #image2{
+    transform: translateX(60%) translateY(-8%);
+    height: 500px;
+    padding: 0px;
+}
+
+img{
+    height: 100;
+}
+
+.animation {
+    /*
+    top: 50%;
+    left: 50%;
+    transform: translateX(-0%) translateY(-500%);
+    animation-name: titleLocation;
+    animation-fill-mode: forwards;
+    animation-duration: 10s; 
+    */
+}
+
+@keyframes titleLocation {
+    0%{left:50%; top:50%;}
+    100% {left:50%; top:10%;}
+}
