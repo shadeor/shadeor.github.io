@@ -1,9 +1,238 @@
-#section{
+.main-nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+.main-nav > a{
+    float: left;
     padding: 20px;
+    font-size: 20px;
 }
-h5{
-    color: #0076ff;
+
+
+.sub-nav{
+    text-align: center;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+ }
+
+.sub-nav > a{
+    padding: 20px;
+    font-size: 20px;
 }
-#caption{
-  font-size: 200px;
+
+.sub-nav a.active{
+	color: #E3B4B4;
 }
+
+.current{
+    color: #E3B4B4;
+}
+
+.current:after{
+    content: "";
+    display: block;
+    margin: 0;
+    width: 60%;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: #5B5B5B;
+} 
+
+body{
+    margin: 0;
+}
+
+.side-bar{
+    height: 100vh;
+    width: 65px;
+    position: fixed;
+    background-color: #E3B4B4;
+    z-index: 1;
+}
+
+/*Need to fix*/
+/*
+.side-bar > img{
+margin-top: -15vh;
+position: fixed;
+}
+*/
+
+.hamburger{
+    padding-top: 15px;
+    padding-left: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hamburger > div{
+    width: 35px;
+    height: 2px;
+    background-color: #E3E3E3;
+    margin: 8px 0;
+}
+
+.side-nav{
+    margin-top: 0;
+    margin-left: -300px;
+    padding-right: 20px;
+    position: fixed;
+    background-color: #D5B8B8;
+    z-index: 1;
+}
+
+.side-nav > ul{
+    list-style-type: none;
+    margin: 0;
+    height: 100vh;
+}
+
+li.item{
+    font-size: 50px;
+    height: 33vh;
+    line-height: 33vh;
+    padding-left: 50px;
+    padding-right: 30px;
+    text-align: center;
+    color: #FCFCFC;
+    border-bottom: 1px solid #FCFCFC;
+}
+
+li a{
+        color: #FCFCFC;
+}
+
+.main{
+    text-align: center;
+    height: 200px;
+    width: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.gameInfo{
+     display: none;
+     position: absolute;
+	margin-left: 30%; 
+	margin-right: 30%;   
+	top: 40%;
+	/*text-align: center;*/
+}
+
+.projectPage{
+    text-align: center;
+    height: 200px;
+    width: 100vh;
+    position: absolute;
+    top: 25%;
+    left: 400px;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.info{
+	
+    height: 200px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -150px;
+
+}
+
+.info > table{
+border-spacing: 30px;
+}
+
+.text{
+font-size: 20px;
+}
+
+.main > h2{
+    float: left;
+    font-size: 100px;
+    margin: 0;
+    padding-right: 10%; 
+    color: #B3B3B3;
+}
+
+.notice{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 50%; 
+    color: #B3B3B3;
+}
+
+
+.main > h1{
+    float: right;
+    font-size: 100px;
+    color: #CDF1F7;
+    margin-top: 5px;
+}
+
+.title{
+    float: left;
+    font-size: 100px;
+    color: #CDF1F7;
+    /*margin-top: 5px;*/
+	margin: 0;
+	padding-right: 10%;
+}
+
+.intro{
+	float: left;
+    font-size: 100px;
+    color: #CDF1F7;
+    /*margin-top: 5px;*/
+	margin: 0;
+	
+
+
+}
+
+.thumbnails{
+	margin-left: auto;
+	margin-right: auto;
+      height: 100vh; 
+	line-height: 130vh;
+	text-align: center;
+  }
+
+.option{
+	height: 30%;
+	padding: 10px;
+}
+
+video{
+    
+    display: block;
+margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/*Need to fix*/
+/*
+.rotate {
+float: left;
+margin-left: -40px;
+margin-top: -30vh;
+
+
+transform: rotate(-90deg);
+
+position: fixed;
+color: #FFF6F6;
+
+}*/

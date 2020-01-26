@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Olivia Shade's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>	
+</head>
+    
+<body>
+    <nav class="main-nav">
+    <a href="index.html">Portfolio</a>
+    <a href="about.html">About</a>    
+    </nav>
+    
+    <div id="side-nav" class="side-nav hidden">
+        <ul>
+            <li class="item"><a href="games.html">Games</a></li>
+            <li class="item"><a href="projects.html">Projects</a></li>
+            <li class="item"><a href="art.html">Art</a></li>
+        </ul>
+</div>
+    
+    <div class="side-bar">
+    <div id="hamburger" class="hamburger" onclick="toggleNav()">
+		<div></div> 
+		<div></div>
+		<div></div>
+    </div>
+    
+    
+
+       <!-- <img alt="linkedin" src=""> -->
+
+        <!---<a href="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    -->
+</div>
+    
+    <div class="projectPage">
+    <h1 class="title">Pokemon Paper</h1>
+     </div>    
+
+	<nav class="sub-nav">
+    <a href="#about" class="links active" onclick="openInfo(event, 'about')">About</a>
+    <a href="#art" class="links" onclick="openInfo(event,'art')">Game Art</a>
+    <a href="#download" class="links" onclick="openInfo(event,'download')">Download</a>    
+    </nav>
+
+
+
+	<div id="about" class="gameInfo" style="display: block;">
+		<p>This is a game made for my Game Design Course where we had to make a game using the assets given to us, while also following the tutorial for the base game. This project was to teach us how to use Game maker to create a game. After we finished the base game we were allowed to alter it and add additional features. This is the first game that I made for a class. </p>
+
+<p>Additional Features I added to the base game required for class:<br> 
+- A main character is controlled using the arrow keys or the WASD keys on the keyboard. (Note: mine is arrow keys)<br>
+- There is a map with solid objects that the main character cannot move through. <br>
+ - There is an enemy character that moves randomly across the map. <br>
+- The player loses the game if the enemy character touches them. <br>
+- The game uses at least 6 different sprites. Add sprites that I created (Need to find them)<br>
+- The game has a tile-based pixel aesthetic similar to Game Boy Color games. <br>
+- The main character of the game has at least an animated left, right, up, down state, and an idle state <br>
+- All objects in the game use an appropriate z-index (or depth). <br>
+- The game is 320x240 pixel in size, and its pixels are not interpolated when running in full screen. <br>
+- The player character has a back idle that is triggered after the character has walked upwards. <br>
+- The submission has a start screen, winning screen, game over screen, and a way to restart the game. <br>
+ - The submission has a score timer in the upper right corner. (Note: mine is in bottom left) <br>
+- The player character has 3 health and a 1 second invincibility after she is hit. (Note: Does not have 1 second invincibility) <br>
+- The submission has its own audiovisual theme. </p>
+
+<p>Unique Game Mechanics:<br>
+ - If character walks off the map, they will reappear at the opposite end <br>
+ - Important: There are mail notices floating above the houses. In the top right corner of the screen are three letters (This is the max the player can hold, and the player cannot receive more until those three are gone. Also, if you go to a house and have no mail, the request will not disappear). Near where the player starts there is a blue mailbox, access this after you are out of letters, and you will receive 3 more, in which you have to deliver.) <br>
+- Door of the house opens when player walks up to it, and closes. <br>
+- There are hearts in the upper right corner, that represent health. <br>
+ - Enemies are like bombs, so like a bomb they disappear on impact. <br>
+- Character has a side idle</p>	
+        
+<video width="400" controls>
+  <source src="video/pokemon.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>        
+    
+	</div>
+
+
+	<div id="art" class="gameInfo">
+		<p>Coming Soon</p>
+	</div>
+
+	<div id="download" class="gameInfo">
+		<p>Coming Soon</p>
+	</div>
+</body>    
+</html>
+
+

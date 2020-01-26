@@ -10,7 +10,7 @@
     
 <body>
     <nav class="main-nav">
-    <a class="current" href="index.html">Portfolio</a>
+    <a href="index.html">Portfolio</a>
     <a href="about.html">About</a>    
     </nav>
     
@@ -36,10 +36,31 @@
         <!---<a href="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    -->
 </div>
     
-    <div class="main">
-    <h2>Welcome to my</h2>
-    <h1>Portfolio</h1>
-	<h3 class="notice">Mobile Version coming soon</h3>
-    </div>    
+    <div class="projectPage">
+    <h1 class="title">Sudoku</h1>
+     </div>    
+
+	<nav class="sub-nav">
+    <a href="#about" class="links active" onclick="openInfo(event, 'about')">About</a>
+    <a href="#art" class="links" onclick="openInfo(event,'art')">Game Art</a>
+    <a href="https://github.com/shadeor/271-Sudoku-/tree/master/Project_03/src" target="_blank" class="links">Download</a>    
+    </nav>
+
+
+
+	<div id="about" class="gameInfo" style="display: block;">
+		<p>This was a two person project created in Java for my Object Oriented programming course. Currently the Game uses preset boards for each difficulty level. As well as allows hints for the user and a solution. </p>	
+	</div>
+
+
+	<div id="art" class="gameInfo">
+		<p>Currently there is no art for this project.</p>
+	</div>
+
+	<div id="download" class="gameInfo">
+		<p>NA</p>
+	</div>
 </body>    
 </html>
+
+
