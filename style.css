@@ -223,17 +223,22 @@ margin: 0 auto;
     margin-bottom: 50px;
 }
 
-/*Need to fix*/
-/*
+
 .rotate {
 float: left;
-margin-left: -40px;
-margin-top: -30vh;
-
+margin-left: -65px;
+margin-top: 80vh;
+font-size: 20px;
 
 transform: rotate(-90deg);
 
 position: fixed;
 color: #FFF6F6;
 
-}*/
+}
+
+.icon{
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 95vh;
+}

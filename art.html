@@ -6,6 +6,8 @@
     <title>Olivia Shade's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>	
+    <script src="components/header.js" type="text/javascript" defer></script>
+
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754642-2"></script>
@@ -20,32 +22,9 @@
 </head>
     
 <body>
-    <nav class="main-nav">
-    <a class="current" href="index.html">Portfolio</a>
-    <a href="about.html">About</a>    
-    </nav>
-    
-    <div id="side-nav" class="side-nav hidden">
-        <ul>
-            <li class="item"><a href="games.html">Games</a></li>
-            <li class="item"><a href="projects.html">Projects</a></li>
-            <li class="item"><a href="art.html">Art</a></li>
-        </ul>
-</div>
-    
-    <div class="side-bar">
-    <div id="hamburger" class="hamburger" onclick="toggleNav()">
-		<div></div> 
-		<div></div>
-		<div></div>
-    </div>
-    
-    
-
-       <!-- <img alt="linkedin" src=""> -->
-
-        <!---<a href="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    -->
-</div>
+  <header-component></header-component>
+   
+  <main>
     
     <div class="projectPage">
     <h1 class="title">Art: Coming Soon</h1>
@@ -53,6 +32,7 @@
 	<div class="thumbnails">
 			
 	</div>
+  </main>
 </body>    
 </html>
 
