@@ -4,9 +4,10 @@
 
     <meta charset="utf-8">
     <title>Olivia Shade's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>	
-    <script src="components/header.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>	
+    <script src="../components/portfolio-header.js" type="text/javascript" defer></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
     
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,33 +23,36 @@
 </head>
     
 <body>
+    <nav-component></nav-component>
     <header-component></header-component>
    
-    <main>
+   <main>
+
     
     <div class="projectPage">
-    <h1 class="title">Sudoku</h1>
+    <h1 class="title">Reliqua</h1>
      </div>    
 
 	<nav class="sub-nav">
     <a href="#about" class="links active" onclick="openInfo(event, 'about')">About</a>
     <a href="#art" class="links" onclick="openInfo(event,'art')">Game Art</a>
-    <a href="https://github.com/shadeor/271-Sudoku-/tree/master/Project_03/src" target="_blank" class="links">Download</a>    
+    <a href="#download" class="links" onclick="openInfo(event,'download')">Download</a>    
     </nav>
 
 
 
 	<div id="about" class="gameInfo" style="display: block;">
-		<p>This was a two person project created in Java for my Object Oriented programming course. Currently the Game uses preset boards for each difficulty level. As well as allows hints for the user and a solution. </p>	
+		<p>Coming Soon</p>
+        <p></p>	
 	</div>
 
 
 	<div id="art" class="gameInfo">
-		<p>Currently there is no art for this project.</p>
+		<p>Coming Soon</p>
 	</div>
 
 	<div id="download" class="gameInfo">
-		<p>NA</p>
+		<p>Coming Soon</p>
 	</div>
     </main>
 </body>    

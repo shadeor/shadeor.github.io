@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Olivia Shade's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>	
+    <script src="../components/portfolio-header.js" type="text/javascript" defer></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754642-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152754642-2');
+</script>
+
+</head>
+    
+<body>
+    <nav-component></nav-component>
+    <header-component></header-component>
+   
+    <main>
+
+    <div class="projectPage">
+    <h1 class="title">Gothic Poe</h1>
+     </div>    
+
+	<nav class="sub-nav">
+    <a href="#about" class="links active" onclick="openInfo(event, 'about')">About</a>
+    <a href="#art" class="links" onclick="openInfo(event,'art')">Game Art</a>
+    <a href="/poe/gothicpoe.html" target="_blank" class="links">Demo</a>    
+    </nav>
+
+
+
+	<div id="about" class="gameInfo" style="display: block;">
+		<p>This is a game prototype created for my IMS 466 course. I prototyped a small demo of this game using HTML, CSS, and Javascript. I am planning on recreating a better version of the game later as well as improving the board, gameplay mechanics and the art work.</p>  
+
+<p>The game is based off of the stories of Edgar Allan Poe, where the player&rsquo;s goal is to traverse the board and safely make it to the safe zone, while getting rid and tricking other players. At the beginning of the game each player is given a role and character card where they try to evade fate and avoid the misfortune that befalls them in the stories.</p>	
+	</div>
+
+
+	<div id="art" class="gameInfo">
+		<p>Coming Soon</p>
+	</div>
+
+	<div id="download" class="gameInfo">
+		<p>NA</p>
+	</div>
+    </main>
+</body>    
+</html>
+
+
+
