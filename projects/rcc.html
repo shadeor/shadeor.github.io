@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Olivia Shade's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>	
+    <script src="../components/portfolio-header.js" type="text/javascript" defer></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754642-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152754642-2');
+</script>
+
+</head>
+    
+<body>
+    <nav-component></nav-component>
+    <header-component></header-component>
+   
+    <main>
+    
+        <div class="back">
+            <p><a href="../projects.html"> < Back </a></p>
+        </div>
+
+    <div class="projectPage">
+    <h1 class="title">RCC</h1>
+     </div>    
+
+	<nav class="sub-nav">
+    <a href="#about" class="links active" onclick="openInfo(event, 'about')">About</a>
+    <a href="#art" class="links" onclick="openInfo(event,'art')">Screen Shots</a>
+    <a href="https://rocky-coast-59013.herokuapp.com/" target="_blank" class="links">Demo Site</a>    
+    </nav>
+
+	<div id="about" class="gameInfo" style="display: block;">
+		<p>This was a project made for my CSE 201: Intro to Software Engineering class. 
+            We worked in groups to come up with a software solution/site and utilized software 
+            engineering processes to create a finalalized product for our customer 
+            (aka our teacher). 
+
+            Below is my group's process outlined in our powerpoint:
+
+        </p>	
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFqNhza763VeJSPqOIqdjc7pd-kbtE3mY9wdHxX4Y4vnYhPBg9vA0tXgHao5oliqYw83loAIVNpnUX/embed?start=true&loop=false&delayms=5000" frameborder="0" width="500" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+
+
+	<div id="art" class="gameInfo">
+		<p>Coming Soon</p>
+	</div>
+
+	<div id="download" class="gameInfo">
+		<p>NA</p>
+	</div>
+    </main>
+</body>    
+</html>
+
+

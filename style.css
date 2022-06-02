@@ -122,11 +122,12 @@ li a{
 }
 
 .gameInfo{
-     display: none;
-     position: absolute;
-	margin-left: 30%; 
+    display: none;
+    position: absolute;
+	margin-left: 35%; 
 	margin-right: 30%;   
 	top: 40%;
+    
 	/*text-align: center;*/
 }
 
@@ -198,22 +199,24 @@ font-size: 20px;
     color: #CDF1F7;
     /*margin-top: 5px;*/
 	margin: 0;
-	
-
-
 }
 
 .thumbnails{
-	margin-left: auto;
-	margin-right: auto;
-      height: 100vh; 
-	line-height: 130vh;
-	text-align: center;
-  }
+	margin-left: 17em;
+	margin-right: 10em;
+    height: 100vh; 
+	/*line-height: 130vh;*/
+    padding-top: 30vh;
+
+}
 
 .option{
 	height: 30%;
 	padding: 10px;
+}
+
+.option:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 video{
@@ -241,4 +244,23 @@ color: #FFF6F6;
     height: 30px;
     margin-left: 15px;
     margin-top: 95vh;
+}
+
+.aboutImg{
+
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 60vh;
+}
+
+.back{
+    position: absolute;
+    font-size: 2vw;
+    color:black;
+    margin-left: 200px;
+
+}
+
+.back:hover{
+    text-decoration: underline;
 }
