@@ -264,3 +264,7 @@ color: #FFF6F6;
 .back:hover{
     text-decoration: underline;
 }
+
+.screenshots img{
+    width: 100%;
+}
