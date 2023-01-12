@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Olivia Shade's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>	
+    <script src="../components/portfolio-header.js" type="text/javascript" defer></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754642-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152754642-2');
+</script>
+
+</head>
+    
+<body>
+    <nav-component></nav-component>
+    <header-component></header-component>
+   
+    <main id="top">
+        <div class="back">
+            <p><a href="../projects.html"> < Back </a></p>
+        </div>
+
+    <div class="projectPage">
+    <h1 class="title">Kind Meals Site</h1>
+     </div>    
+
+	<nav class="sub-nav">
+    <a href="#about #top" class="links active" onclick="openInfo(event, 'about')">About</a>
+    <a href="#art #top" class="links" onclick="openInfo(event,'art')">Designs</a>
+    <a href="http://kindmealscolumbus.org/" target="_blank" class="links">Demo Site</a>    
+    </nav>
+
+
+
+	<div id="about" class="gameInfo" style="display: block;">
+		<p>
+            This is a project that I designed for the nonprofit organization that I volunteer with. I designed this website using html, css, and the google maps API. This project is deployed using a server in the cloud that I set up. 
+            <br>
+            <br>
+            For this project I made a few mockups using adobeXD, as well as the thumbnail designs that are used within the site.
+        </p>	
+        
+        <h4>Color Scheme</h4>
+        <div class="screenshots">
+             <img src="../images/kindmeals/Kind%20Meals%20Navbar%20Colors.png">
+        </div>
+	</div>
+
+
+	<div id="art" class="gameInfo">
+        <h3>1st Design</h3>
+         <div class="screenshots">
+             <img src="../images/kindmeals/design1/home.png">
+             <img src="../images/kindmeals/design1/mission.png">
+             <img src="../images/kindmeals/design1/location.png">
+             <img src="../images/kindmeals/design1/contact.png">
+             <img src="../images/kindmeals/design1/socials.png">
+        </div>
+        <br>
+        <br>
+        <h3>2nd Design</h3>
+         <div class="screenshots">
+             <img src="../images/kindmeals/design2/home.png">
+             <img src="../images/kindmeals/design2/about.png">
+             <img src="../images/kindmeals/design2/thumbnails.png">
+             <img src="../images/kindmeals/design2/location.png">
+             <img src="../images/kindmeals/design2/contact.png">
+        </div>
+	</div>
+
+	<div id="download" class="gameInfo">
+		<p>Coming Soon</p>
+	</div>
+    </main>
+</body>    
+</html>
+
+
