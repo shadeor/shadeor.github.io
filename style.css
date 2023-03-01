@@ -161,13 +161,14 @@ border-spacing: 30px;
 font-size: 20px;
 }
 
-.main > h2{
+.title1{
+    font-size: 10vh;
     float: left;
-    font-size: 100px;
     margin: 0;
     padding-right: 10%; 
     color: #B3B3B3;
 }
+
 
 .notice{
     font-size: 20px;
@@ -177,7 +178,7 @@ font-size: 20px;
 }
 
 
-.main > h1{
+.title2{
     float: right;
     font-size: 100px;
     color: #CDF1F7;
@@ -267,4 +268,27 @@ color: #FFF6F6;
 
 .screenshots img{
     width: 100%;
+}
+
+
+/*Mobile View*/
+@media screen and (max-width: 800px) {
+    
+.main{
+    margin-left: 0px;
+        
+}
+    
+.title2{
+    float: none;
+    font-size: 50px; !important
+}
+    
+    
+    
+}
+
+/*Revert to Desktop*/
+@media screen and (min-width: 800px) {
+    
 }
