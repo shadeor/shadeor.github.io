@@ -5,6 +5,7 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
+<!--Desktop -->
 <div id="side-nav" class="side-nav hidden">
     <ul>
         <li class="item"><a href="../games.html">Games</a></li>
@@ -20,12 +21,43 @@ class Header extends HTMLElement {
     <div></div>
 </div>
 
-
-
-<a href="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    
+<div class="desktop-only">
+<a classhref="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    
 <a href="https://www.linkedin.com/in/oliviashade/" target="_blank" rel="noopener noreferrer "><img alt="linkedin" src="../images/linkedin-icon.png" class="icon"></a>
 </div>
+</div>
+
+
+
 `;
 }
 }
+
+class Footer extends HTMLElement {
+    constructor() {
+      super();
+    }
+  
+    connectedCallback() {
+      this.innerHTML = `
+
+<div class="desktop-only">
+<p>© 2023 shadeor.github.io | privacy policy </p> 
+</div>
+
+
+<div class="mobile-only">
+<a classhref="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    
+<a href="https://www.linkedin.com/in/oliviashade/" target="_blank" rel="noopener noreferrer "><img alt="linkedin" src="../images/linkedin-icon.png" class="icon"></a>
+</div>
+</div>
+
+
+
+`;
+}
+}
+
+
 customElements.define('header-component', Header);
+customElements.define('footer-component', Footer);
