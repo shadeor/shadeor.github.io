@@ -1,14 +1,27 @@
-const lightMode = document.getElementById('light-mode');
-const darkMode = document.getElementById('dark-mode');
 
 
-function displayLightMode(){
-    lightMode.hidden = true;
-    darkMode.style.display = "block";
+function displayLightMode() {
+    document.getElementById('light-mode').style.display = "none";
+   document.getElementById('dark-mode').style.display = "block";
+   // alert("Display Light Mode");
 }
 
 
-function displayDarkMode(){
-        darkMode.style.display = "none";
-        /*lightMode.style.display = "block";*/
+function displayDarkMode() {
+    //alert("Display Dark Mode");
+      document.getElementById('light-mode').style.display = "block";
+        document.getElementById('dark-mode').style.display = "none";
+}
+
+/*
+function toggleTheme(){
+     if(document.getElementById('light-mode').style.display === "none"){
+         document.getElementById('light-mode').style.display = "block";
+         document.getElementById('dark-mode').style.display = "none";
+     }else{
+         document.getElementById('light-mode').style.display = "none";
+         document.getElementById('dark-mode').style.display = "block";
+     }
+     
+    
 }
