@@ -1,0 +1,84 @@
+html, body{
+    color: #ffffff; 
+}
+
+body{
+    background-color: black;
+}
+.sub-nav a.active{
+	color: #DDA1DD;
+}
+
+.current{
+    color: #DDA1DD;
+}
+.current:after {
+ border-bottom: 1px solid #FFFFFF;
+}
+
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+} 
+
+.side-bar{
+ background-color: #DDA1DD;
+}
+
+.hamburger > div{
+    background-color: #E3E3E3;
+}
+
+.side-nav{
+    background-color: #D8BED8;
+}
+
+li.item{
+    color: #FCFCFC;
+    border-bottom: 1px solid #FCFCFC;
+}
+
+li a{
+        color: #FCFCFC;
+}
+
+.title{
+     color: #F3ECF3;
+}
+
+.title1, .aboutTitle{
+    color: #FFFFFF;
+}
+
+.title2{
+        color: #DDA1DD;
+}
+
+.intro{
+    color: #DDA1DD;
+}
+
+.rotate {
+    color: #FFF6F6;
+}
+
+.back{
+    color: #ffffff;
+}
+
+
+p{
+    color: #ffffff;
+}
+
+footer{
+    color: #FFFFFF;
+}
+    
+@media screen and (max-width: 800px) {
+    footer{
+        background-color: #D5B8B8;
+    }
+}
+    

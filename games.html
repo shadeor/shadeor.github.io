@@ -2,12 +2,19 @@
 <html>
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Olivia's Portfolio">
+    <!--<meta name="color-scheme" content="dark light">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Olivia Shade's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <script src="../script.js"></script>	
+    <link rel="stylesheet" id="current-theme" type="text/css" href="../light-theme.css">
+    <script src="../script.js" type="text/javascript"></script>
     <script src="../components/portfolio-header.js" type="text/javascript" defer></script>
     <script src="../components/header.js" type="text/javascript" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754642-2"></script>
@@ -18,6 +25,9 @@
 
   gtag('config', 'UA-152754642-2');
 </script>
+     <script>
+     document.addEventListener("DOMContentLoaded", checkTheme);
+    </script>
 
 </head>
     
