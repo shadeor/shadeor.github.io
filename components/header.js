@@ -15,7 +15,7 @@ class Header extends HTMLElement {
 </div>
 
 <div class="side-bar">
-<div id="hamburger" class="hamburger" onclick="toggleNav()">
+<div id="hamburger" class="hamburger pointer" onclick="toggleNav()">
     <div></div> 
     <div></div>
     <div></div>
@@ -42,12 +42,12 @@ class Footer extends HTMLElement {
       this.innerHTML = `
 
 <div class="desktop-only">
-<p>© 2023 shadeor.github.io | privacy policy </p> 
+<p>© 2023 shadeor.github.io</p> 
 </div>
 
 
 <div class="mobile-only">
-<a classhref="mailto:shadeor@miamioh.edu" class="rotate">Shadeor@miamioh.edu</a>    
+<a classhref="mailto:shadeor@miamioh.edu">Shadeor@miamioh.edu</a>    
 <a href="https://www.linkedin.com/in/oliviashade/" target="_blank" rel="noopener noreferrer "><img alt="linkedin" src="../images/linkedin-icon.png" class="icon"></a>
 </div>
 </div>

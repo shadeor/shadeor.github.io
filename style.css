@@ -1,3 +1,39 @@
+html, body {padding:0; margin:0; color: rgb(56, 56, 56); width: auto;}
+
+.light-mode{
+    color: black;
+}
+
+#light-mode{
+    display: block;
+}
+
+#dark-mode{
+     display: block;
+}
+
+.light-mode:hover{
+    color: #B3B3B3;
+}
+
+.dark-mode{
+    color: #F3ECF3;
+}
+
+.dark-mode:hover{
+    color: #D8BED8;
+}
+
+.pointer{
+        cursor: pointer;
+}
+
+main{
+    position: relative;
+  min-height: 93vh;
+    z-index: -5;
+}
+
 .main-nav{
     float: right;
     margin-top: 10px;
@@ -113,12 +149,13 @@ li a{
 .main{
     text-align: center;
     height: 200px;
-    width: 100vh;
+    width: 100vw;
     position: absolute;
     top: 50%;
-    left: 35%;
+    /*
+left: 35%;*/
     margin-top: -100px;
-    margin-left: -200px;
+    /*margin-left: -200px;*/
 }
 
 .gameInfo{
@@ -163,26 +200,22 @@ font-size: 20px;
 
 .title1{
     font-size: 6vw;
-    float: left;
+   /* float: left;*/
     margin: 0;
     padding-right: 10%; 
     color: #B3B3B3;
 }
 
 
-.notice{
-    font-size: 20px;
-    margin: 0;
-    padding-top: 50%; 
-    color: #B3B3B3;
-}
 
 
 .title2{
-    float: right;
+    float: left;
     font-size: 8vw;
     color: #CDF1F7;
-    margin-top: 5px;
+    margin-top: 5rem;
+    padding-left: 7em;
+    margin-top: 0px;
 }
 
 .title{
@@ -271,12 +304,50 @@ color: #FFF6F6;
 }
 
 
+footer{
+    color: #B3B3B3;
+    font-size: 20px;
+    margin: 0; 
+    float: right;
+    /*margin-right: -180px;*/
+    z-index: -2;
+    position:relative;
+    height: 0;
+    padding-right: 10px;
+}
+
+.mobile-only{
+    display: none;
+}
+
 /*Mobile View*/
 @media screen and (max-width: 800px) {
     
     .desktop-only{
         display: none;
     }    
+    
+    .mobile-only{
+    display: contents;
+}
+    footer{
+        position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+         background-color: #D5B8B8;
+      
+    }
+    
+    footer-component{
+        position: absolute;
+              height: 0;
+        text-align: center;
+    }
+    .icon{
+  content: url(images/linkedin-icon-grey.png);
+        margin-top: 0px;
+    }
 .main{
     margin-left: 0px;
     text-align: left;
