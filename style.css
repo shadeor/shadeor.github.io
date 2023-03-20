@@ -161,15 +161,11 @@ left: 35%;*/
 	/*text-align: center;*/
 }
 
-.projectPage{
-    text-align: center;
-    height: 200px;
-    width: 100vh;
-    position: absolute;
-    top: 25%;
-    left: 400px;
-    margin-top: -100px;
-    margin-left: -200px;
+
+.content{
+   top: 50%;
+        position: absolute;
+    width: 100vw;
 }
 
 .info{
@@ -200,7 +196,9 @@ font-size: 20px;
 }
 
 
-
+.general-info{
+    font-size: 30px;
+}
 
 
 .title2{
@@ -214,10 +212,11 @@ font-size: 20px;
 
 .title{
     float: left;
-    font-size: 5vw;
-   
+    font-size: 100px;
+   padding-left: 300px;
+    position: absolute;
     /*margin-top: 5px;*/
-	margin: 0;
+	/*margin: 0;*/
 	padding-right: 10%;
 }
 
@@ -231,18 +230,23 @@ font-size: 20px;
 
 .thumbnails{
     position: relative;
-	margin-left: 17em;
-	margin-right: 10em;
-    height: 100vh; 
+	margin-left: 20%;
+    top: 200px; 
+	/*margin-right: 10em;*/
+    
 	/*line-height: 130vh;*/
-    padding-top: 30vh;
-    z-index: 2000;
+
+
+    width: 80vw;
 
 }
 
 .option{
 	height: 30%;
 	padding: 10px;
+    width: 200px;
+    height: 200px;
+
 }
 
 .option:hover{
@@ -317,6 +321,7 @@ footer{
 /*Mobile View*/
 @media screen and (max-width: 800px) {
     
+    
     .desktop-only{
         display: none;
     }    
@@ -349,14 +354,58 @@ footer{
         
 }
     
+    .thumbnails{
+        top: 100px;
+    }    
+.title{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+   
+}
+    
 .title2{
     float: left;
     font-size: 50px; !important
 }
     
     
+    .back {
+    display: none;
+    }
     
+    .sub-nav {
+  
+    left: 15%;
+    }
     
+    .extra-space{
+        top: 43%; !important
+    }
+    
+    .extra-space-2{
+        top: 45%; !important
+    }
+    
+    .extra-space-3{
+        top: 34%; !important
+    }
+    .gameInfo{
+            margin-left: 25%;
+    margin-right: 10%;
+    }
+    
+    .video{
+        width: 60vw;
+        text-align: center;
+    }
+    
+    .general-info{
+    font-size: 12px;
+        text-align: center;
+        left: 100px;
+    position: absolute;
 }
 
 /*Revert to Desktop*/
