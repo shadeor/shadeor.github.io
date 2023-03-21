@@ -25,6 +25,9 @@ html, body {padding:0; margin:0; width: auto;}
      display: block;
 }
 
+.mobile-bio{
+    display: none;
+}
 
 .pointer{
         cursor: pointer;
@@ -322,13 +325,15 @@ footer{
 @media screen and (max-width: 800px) {
     
     
-    .desktop-only{
+    
+    .desktop-only, .desktop-bio, .mobile-only{
         display: none;
     }    
     
-    .mobile-only{
-    display: contents;
-}
+    .mobile-bio{
+        display: block;
+    }
+    /*
     footer{
         position: absolute;
   bottom: 0;
@@ -347,12 +352,29 @@ footer{
   content: url(images/linkedin-icon-grey.png);
         margin-top: 0px;
     }
+    */
 .main{
     margin-left: 0px;
     text-align: left;
-    left: 5%;
-        
+         left: 5%;
+      
 }
+    
+    .mobile-main{
+        position: absolute;
+         /*left: 30% !important;*/
+        width: 50vw !important;
+            margin-top: 150px;
+        height: 0px;
+        width: 0px;
+        
+     
+    }
+    
+    .mobile-main2{
+         position: absolute;
+        top: 40% !important;
+    }
     
     .thumbnails{
         top: 100px;
@@ -364,11 +386,20 @@ footer{
     padding-bottom: 20px;
    
 }
+    .mobile-title2{
+        font-size: 50px !important;
+       padding-left: 30% !important;
+    }
     
 .title2{
     float: left;
-    font-size: 50px; !important
+     font-size: 50px; !important
+    
 }
+    
+    .mobile-title1{
+            padding-left: 30% !important;
+    }
     
     
     .back {
@@ -378,6 +409,10 @@ footer{
     .sub-nav {
   
     left: 15%;
+    }
+    
+    .extra-space-none{
+        top: 25%;
     }
     
     .extra-space{
