@@ -24,7 +24,7 @@ class Header extends HTMLElement {
 
 
 <div class="desktop-only">
-<a classhref="mailto:shadeor@miamioh.edu" class="rotate">createdinshade@gmail.com</a>    
+<a classhref="mailto:createdinshade@gmail.com" class="rotate">createdinshade@gmail.com</a>    
 <a href="https://www.linkedin.com/in/oliviashade/" target="_blank" rel="noopener noreferrer "><img alt="linkedin" src="../images/linkedin-icon.png" class="icon"></a>
 </div>
 </div>
