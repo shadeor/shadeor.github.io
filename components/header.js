@@ -49,7 +49,7 @@ class Footer extends HTMLElement {
 
 
 <div class="mobile-only">
-<a classhref="mailto:shadeor@miamioh.edu">Shadeor@miamioh.edu</a>    
+<a classhref="mailto:createdinshade@gmail.com">createdinshade@gmail.com</a>    
 <a href="https://www.linkedin.com/in/oliviashade/" target="_blank" rel="noopener noreferrer "><img alt="linkedin" src="../images/linkedin-icon.png" class="icon"></a>
 </div>
 </div>
